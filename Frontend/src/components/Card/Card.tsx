@@ -2,8 +2,14 @@ import React, { PropsWithChildren } from "react";
 
 import styles from "./Card.module.scss";
 
-const Card: React.FC<PropsWithChildren> = (prop) => {
-  return <div className={styles.card}>{prop.children}</div>;
+interface Props extends PropsWithChildren<{}> {
+  className?: string;
+}
+
+const Card: React.FC<Props> = (prop) => {
+  const classes = [styles.card, prop.className].join(" ");
+
+  return <div className={classes}>{prop.children}</div>;
 };
 
 export default Card;

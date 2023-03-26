@@ -14,8 +14,8 @@
     margin-top: 2rem;
   }
 
-  &__button:link,
-  &__button:visited {
+  &a:link,
+  &a:visited {
     display: inline-block;
     margin-top: 10rem;
     padding: 1.5rem 3rem;
@@ -26,4 +26,13 @@
     color: white;
     cursor: pointer;
   }
+}
+
+.sales {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: 10rem;
 }
