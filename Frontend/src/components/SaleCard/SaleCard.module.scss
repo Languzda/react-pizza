@@ -1,0 +1,52 @@
+.sale_card {
+  margin-top: 3rem;
+  width: 30rem;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .img_box {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  p {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5rem;
+    padding: 1.5rem 3rem;
+    font-size: 2.4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
