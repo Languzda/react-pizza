@@ -83,7 +83,7 @@ const HomePage = () => {
 
   //   const fetchData = async () => {
   //     const response = await client.fetch(query);
-  //     
+  //
   //     setSales(
   //       response.map(
   //         (sale: any) =>
